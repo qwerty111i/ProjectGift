@@ -6,9 +6,10 @@
   <title>Project Gift</title>
 
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Quantico:wght@400;700&family=Russo+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,600&display=swap" rel="stylesheet">
   <!--Favicon-->
@@ -29,33 +30,48 @@
 <body>
   <!--Home-->
   <header class="header" id="HOME">
+
     <!--Navigation-->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <!--Mobile Display-->
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#pg-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#HOME">
-            <!--Navigation Logo-->
-            <img src="images/logo.png" alt="Logo">
-          </a>
+          <table>
+            <tr>
+              <!--Mobile Display-->
+              <a href="index.html" class="pull-left visible-md visible-lg">
+                <div id="logo-img"></div>
+              </a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#pg-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#HOME">
+                <!--Navigation Logo-->
+                <td width="7%">
+                  <p class="icon-left">4-H</p>
+                </td>
+                <td width="35%">
+                  <img src="images/logo.png" width="50" height="50" alt="Logo">
+                </td>
+              </a>
         </div>
         <!--Navigation Links-->
-        <div class="collapse navbar-collapse" id="pg-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#HOME" class="nav-item">HOME</a></li>
-            <li><a href="#ABOUT" class="nav-item">ABOUT</a></li>
-            <li><a href="#TESTIMONIALS" class="nav-item">TESTIMONIALS</a></li>
-            <li><a href="#FUNDRAISING" class="nav-item">FUNDRAISING</a></li>
-            <li><a href="#DONATENOW" class="nav-item">DONATE NOW</a></li>
-            <li><a href="#CONTACT" class="nav-item">CONTACT</a></li>
-          </ul>
-        </div>
+        <td width="50%">
+          <div class="collapse navbar-collapse" id="pg-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#HOME" class="nav-item">HOME</a></li>
+              <li><a href="#ABOUT" class="nav-item">ABOUT</a></li>
+              <li><a href="#TESTIMONIALS" class="nav-item">TESTIMONIALS</a></li>
+              <li><a href="#FUNDRAISING" class="nav-item">FUNDRAISING</a></li>
+              <li><a href="#DONATENOW" class="nav-item">DONATE NOW</a></li>
+              <li><a href="#CONTACT" class="nav-item">CONTACT</a></li>
+            </ul>
+          </div>
+        </td>
+        </tr>
+        </table>
       </div>
     </nav>
     <div class="header-overlay">
@@ -98,7 +114,7 @@
           <div class="col-md-6">
             <!--Project Gift Image-->
             <div class="gifts wow fadeInLeft" data-wow-duration=".5s" data-wow-delay=".5s">
-              <img class="img-responsive" src="images/gift-tables.jpg" alt="Tables stacked with gifts">
+              <iframe class="gifts-vid" width="560" height="315" src="https://www.youtube.com/embed/r2QP0jlXGKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
           <div class="col-md-6 wow fadeInRight" data-wow-duration=".5s" data-wow-delay=".5s">
@@ -124,7 +140,8 @@
                 <div><i class="fa fa-users" aria-hidden="true"></i></div>
                 <!--Title/Description-->
                 <h3>Who We Reach</h3>
-                <p>We currently reach approximately 350 youth from 135 different families, representing 13 different agencies. We also work with welfare-to-work agencies, battered womens shelters and programs, family shelters, ESL programs, housing authorities, and more.</p>
+                <p>We currently reach approximately 350 youth from 135 different families, representing 13 different agencies. We also work with welfare-to-work agencies, battered womens shelters and programs, family shelters, ESL programs, housing
+                  authorities, and more.</p>
               </div>
 
               <!--Item 3-->
