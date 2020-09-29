@@ -72,7 +72,7 @@ p {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  background-color: #86100a;
+  background-color: #df655f;
   color: #fff;
 }
 
@@ -305,7 +305,7 @@ p {
 
 .carousel-inner .item img {
   border: 2px solid #129CF3;
-  border-radius: 50%;
+  border-radius: 25%;
   padding: 3px;
 }
 
@@ -430,7 +430,15 @@ p {
   width: 100%;
 }
 
+#HowToDonate {
+  font-size: 25px;
+  font-family: "Quantico";
+  font-weight: 800;
+  line-height: 10px;
+}
+
 /*Contact Us CSS*/
+/*
 .contact-us-form .form-control {
   display: block;
   width: 100%;
@@ -524,7 +532,7 @@ p {
 .social-icons ul li a i {
   font-size: 20px;
 }
-
+*/
 /*Footer*/
 .footer {
   background-color: #1a1a1a;
