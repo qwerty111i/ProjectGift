@@ -56,10 +56,10 @@ p {
   border-color: #86100a;
   background-image: linear-gradient(to left, rgba(255, 255, 255), rgb(255, 255, 255));  z-index: 110;
   opacity: 0;
-  transition: all 1s;
-  -o-transition: all 1s;
-  -moz-transition: all 1s;
-  -webkit-transition: all 1s;
+  transition: all .5s;
+  -o-transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -86,10 +86,10 @@ p {
 }
 
 .navbar-brand img {
-  transition: all 1s;
-  -o-transition: all 1s;
-  -moz-transition: all 1s;
-  -webkit-transition: all 1s;
+  transition: all .5s;
+  -o-transition: all .5s;
+  -moz-transition: all .5s;
+  -webkit-transition: all .5s;
 }
 
 .navbar-default .navbar-nav > .active>a,
@@ -108,7 +108,7 @@ p {
 }
 
 .header {
-  background-image: url("../images/top-background.jpeg");
+  background-image: url("../images/Background-2.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: 50% 50%; /*50% on x axis, 50% on y axis*/
@@ -143,6 +143,17 @@ p {
   font-style: italic;
 }
 
+.clover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 120px;
+  width: 120px;
+  margin-top: -20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
 /*Header Button CSS*/
 .header-btns {
   margin-top: 90px;
@@ -156,7 +167,7 @@ p {
 .btn-download:visited
 {
   background: transparent;
-  border-color: #86100a;
+  border-color: #b9170f;
   border-width: 3px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -164,18 +175,18 @@ p {
   padding-right: 30px;
   font-family: 'Quantico';
   font-size: 19px;
-  color: #86100a;
+  color: #b9170f;
   font-weight: 600;
   text-transform: uppercase;
   border-radius: 3px;
-  transition: all 1s;
-  -webkit-transition: all 1s; /*Transition*/
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
+  transition: all .5s;
+  -webkit-transition: all .5s; /*Transition*/
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
 }
 
 .btn-download:hover {
-  background-color: #86100a;
+  background-color: #b9170f;
   color: #fff;
 }
 
@@ -190,10 +201,10 @@ p {
   text-transform: uppercase;
   font-size: 19px;
   background: transparent;
-  transition: all 1s;
-  -webkit-transition: all 1s; /*Transition*/
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
+  transition: all .5s;
+  -webkit-transition: all .5s; /*Transition*/
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
 }
 
 .btn-learn-more:hover {
@@ -252,10 +263,10 @@ p {
 .about-item div i {
   font-size: 55px;
   color: #129CF3;
-  transition: all 1s;
-  -webkit-transition: all 1s; /*Transition*/
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
+  transition: all .5s;
+  -webkit-transition: all .5s; /*Transition*/
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
 }
 
 .about-item h3 {
@@ -453,10 +464,10 @@ p {
   margin-bottom: 15px;
   opacity: 0.8;
   outline: 0px !important;
-  transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  -webkit-transition: all 1s;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  -webkit-transition: all .5s;
 }
 
 #message {
@@ -478,10 +489,10 @@ p {
     font-size: 18px;
     color: #86100a;
     outline: 0px !important;
-    transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-    -webkit-transition: all 1s;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
 }
 
 .submit-btn:hover {
@@ -517,10 +528,10 @@ p {
   height: 45px;
   line-height: 49px;
   color: #9D9D9D;
-  transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-  -webkit-transition: all 1s;
+  transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  -webkit-transition: all .5s;
 }
 
 .social-icons ul li a:hover {
